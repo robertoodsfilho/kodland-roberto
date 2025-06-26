@@ -215,7 +215,7 @@ class Game:
         screen.clear()
         if self.state == STATE_MENU:
             screen.blit(self.background, (0, 0))
-            screen.draw.text("ROGUEALIKE KODLAND", center=(WIDTH // 2, 100), fontsize=50, color="white")
+            screen.draw.text("SNAKE DUNGEON", center=(WIDTH // 2, 100), fontsize=50, color="white")
             for button in self.buttons:
                 button.draw()
         elif self.state == STATE_PLAYING:
