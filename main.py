@@ -131,7 +131,7 @@ class Game:
         try:
             music.play(self.background_music)
             if self.sound_on:
-                music.play(-1)
+                music.play(self.background_music)
         except:
             music.unpause()    
     def create_menu(self):
